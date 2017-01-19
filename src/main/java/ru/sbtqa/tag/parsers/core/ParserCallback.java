@@ -1,7 +1,5 @@
 package ru.sbtqa.tag.parsers.core;
 
-import ru.sbtqa.tag.parsers.core.ParserItem;
-
 public interface ParserCallback extends Callback<ParserItem, Object> {
 
     /**
