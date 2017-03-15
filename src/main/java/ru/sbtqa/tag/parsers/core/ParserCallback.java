@@ -9,6 +9,6 @@ public interface ParserCallback extends Callback<ParserItem, Object> {
      * @return an object received after parser item applied
      */
     @Override
-    public String call(ParserItem item);
+    public Object call(ParserItem item);
 
 }
